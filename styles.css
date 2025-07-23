@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root {
+    --component-bg-color: white;
     --main-bg-color: hsl(212, 45%, 89%);
     --text-color: hsl(216, 15%, 48%);
     --title-color: hsl(218, 44%, 22%);
@@ -22,7 +23,7 @@ body {
     width: 320px;
     height: 500px;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: var(--component-bg-color);
     border-radius: 20px;
     padding: 16px 16px 40px;
     text-align: center;
